@@ -16,7 +16,7 @@
   
  
 }
-li{
+.main-nav li{
    
     margin-left: 20px;
     list-style:none;
@@ -131,8 +131,92 @@ section{
     border-radius: 20px;
     margin-left: 20px;
 }
-.bam{
+.bar{
+    max-width: 1280px;
+    margin: 0 auto;  
+    position: relative;  
+}
+
+.bam h1{
+    width: 395px;
+    height: 157px;
+}
+.bam p{
+    width: 510px;
+    height: 120px;
+}
+.bam img {
+    width: 400px;
+    height: 388px;
+    position: absolute;
+    right: 75px;
+    top: 50px;
+    bottom: 100px; 
+    mix-blend-mode: multiply;
+    
+}
+.card h2{
+    color:  #F58A07;
+}
+
+.card p{
+    width: 150px;
+    height: 70px;
+}
+
+#cards{
+    display: flex;
+}
+.card-2 p{
+    width: 170px;
+    height: 84px;
+}
+.card{
+    margin-right: 25px;
+}
+.card-2 h2{
+    color: #F58A07;
+}
+.bom{
     max-width: 1280px;
     margin: 0 auto;
+    background-color: #EDF7FF;
+    border-radius: 15px;
+    position: relative;
 }
+.bor{
+    display: flex;
+}
+.bor p{
+    margin-left: 25px;
+}
+.urt p{
+    width: 500px;
+    height: 200px;
+}
+.ms{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.bag{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
+.bus{
+    background-color: white;
+    color: #F58A07;
+    padding: 10px;
+    border-radius: 20px;
+}
+.urt a{
+    color: #F58A07;
+
+}
+.urt a::after{
+    content: "\2193";
+}
+
+
 
